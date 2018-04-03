@@ -49,5 +49,6 @@ function isPrivateMode() {
 }
 
 isPrivateMode().then((isPrivate) => {
-    console.log('the route to absolute privacy is privacy');
+    if(isPrivate)
+      console.log('the route to absolute privacy is privacy');
 });
