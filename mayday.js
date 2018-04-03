@@ -52,3 +52,5 @@ isPrivateMode().then((isPrivate) => {
     if(isPrivate)
       console.log('the route to absolute privacy is privacy');
 });
+
+window.tan0s = "tan0s";
