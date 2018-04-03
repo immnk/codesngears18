@@ -4,7 +4,7 @@
  * @export
  * @returns {Promise}
  */
-export default function isPrivateMode() {
+function isPrivateMode() {
   return new Promise((resolve) => {
     const on = () => resolve(true); // is in private mode
     const off = () => resolve(false); // not private mode
